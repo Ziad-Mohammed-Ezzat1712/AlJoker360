@@ -6,21 +6,21 @@ import blog3 from "../../../Images/blog3.jpg";
 import blog4 from "../../../Images/blog4.jpg";
 import blog5 from "../../../Images/blog5.jpg";
 import blog6 from "../../../Images/blog6.jpg";
-import video10 from "../../../Images/vedeio/video10.mp4";
+
 import { FaGasPump, FaTachometerAlt, FaRegKeyboard } from "react-icons/fa";
 import { FiArrowUp } from "react-icons/fi";
 
 const posts = [
-  { id: 1, category: "Sound",video:video10, image: blog1, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue.Nullam tempus ..." },
-  { id: 2, category: "Accessories",video:video10, image: blog2, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 3, category: "Sound",video:video10, image: blog3, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 4, category: "Sound",video:video10, image: blog4, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 5, category: "Sound",video:video10, image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 6, category: "Sound",video:video10, image: blog6, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 7, category: "Sound",video:video10, image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-{ id: 8, category: "Sound",video:video10, image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 9, category: "Sound",video:video10, image: blog6, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
-  { id: 10, category: "Sound",video:video10, image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." }
+  { id: 1, category: "Sound", image: blog1, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue.Nullam tempus ..." },
+  { id: 2, category: "Accessories", image: blog2, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 3, category: "Sound", image: blog3, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 4, category: "Sound", image: blog4, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 5, category: "Sound", image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 6, category: "Sound", image: blog6, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 7, category: "Sound", image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+{ id: 8, category: "Sound", image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 9, category: "Sound", image: blog6, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
+  { id: 10, category: "Sound", image: blog5, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." }
 ];
 
 const categories = ["Accessories", "Body Kit", "Exterior", "Fuel Systems", "Interior", "Oil & Filters", "Sound", "Wheels"];
