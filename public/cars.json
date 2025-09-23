@@ -1,0 +1,179 @@
+
+[
+  {
+    "id": 1,
+    "title": "Elantra — 2024",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2024,
+    "miles": "15 Miles",
+    "fuel": "Petrol",
+    "gear": "CVT",
+    "price": 15000,
+    "image": "/Images/sedan/elentra8.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Mercedes C300-2020",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2020,
+    "miles": "12 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 45000,
+    "image": "/Images/sedan/mercedes.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Nissan Sentra -2023",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2023,
+    "miles": "25 Miles",
+    "fuel": "Petrol",
+    "gear": "Manual",
+    "price": 28000,
+    "image": "/Images/sedan/nissan.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Kia K5-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "10 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 55000,
+    "image": "/Images/sedan/Kia.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Kia K7-2020",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2020,
+    "miles": "22 Miles",
+    "fuel": "Hybrid",
+    "gear": "Auto",
+    "price": 32000,
+    "image": "/Images/sedan/Kiaold.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Mazda 6-2019",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2019,
+    "miles": "25 Miles",
+    "fuel": "Petrol",
+    "gear": "Manual",
+    "price": 28000,
+    "image": "/Images/sedan/Mazda.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Hyundai Accent-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "10 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 55000,
+    "image": "/Images/sedan/elentranew.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Toyota Camry-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "22 Miles",
+    "fuel": "Hybrid",
+    "gear": "Auto",
+    "price": 32000,
+    "image": "/Images/sedan/Toyota.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Hyundai Creta-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "22 Miles",
+    "fuel": "Hybrid",
+    "gear": "Auto",
+    "price": 32000,
+    "image": "/Images/Suv/HyundaiCreta.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Kia Carnival-2024",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2024,
+    "miles": "25 Miles",
+    "fuel": "Petrol",
+    "gear": "Auto",
+    "price": 28000,
+    "image": "/Images/Suv/KiaCarnival.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Nissan Patrol-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "10 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 55000,
+    "image": "/Images/Suv/NissanPatrol.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Hyundai Palisade",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "22 Miles",
+    "fuel": "Hybrid",
+    "gear": "Auto",
+    "price": 32000,
+    "image": "/Images/Suv/HyundaiPalisade.jpg"
+  },
+  {
+    "id": 19,
+    "title": "BMW 430i-2024",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2024,
+    "miles": "15 Miles",
+    "fuel": "Petrol",
+    "gear": "CVT",
+    "price": 15000,
+    "image": "/Images/Convertible/BMW430i.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Ford-Mustang-2024",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2024,
+    "miles": "12 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 45000,
+    "image": "/Images/Convertible/Ford-Mustang.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Mercedes-AMG",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2024,
+    "miles": "25 Miles",
+    "fuel": "Petrol",
+    "gear": "Manual",
+    "price": 28000,
+    "image": "/Images/Convertible/Mercedes-AMG.jpg"
+  },
+  {
+    "id": 22,
+    "title": "BMW Z4-2025",
+    "subtitle": "4.0 D5 PowerPulse Momentum...",
+    "year": 2025,
+    "miles": "10 Miles",
+    "fuel": "Diesel",
+    "gear": "Auto",
+    "price": 55000,
+    "image": "/Images/Convertible/bmwz4.avif"
+  }
+]

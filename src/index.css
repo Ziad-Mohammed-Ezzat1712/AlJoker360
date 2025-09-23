@@ -1,0 +1,9 @@
+@import "tailwindcss";
+body {
+  overflow-x: hidden;
+}
+@layer components {
+  .custom-nav-btn {
+    @apply absolute top-1/2 z-10 -translate-y-1/2 text-xl bg-[#FDEBEE]  hover:bg-white;
+  }
+}
