@@ -65,11 +65,12 @@ const cars = {
   
   ],
   Hatchback: [
-    { id: 32, name: "Volkswagen Golf 8 -2021 ", des:"4.0 D5 PowerPulse Momentum...", miles: "22 Miles", fuel: "Hybrid", gear: "Auto", price: "$32,000", img: Volkswagen },
-  { id: 33, name: "Chevrolet Aveo LT -2023", des:"4.0 D5 PowerPulse Momentum...", miles: "25 Miles", fuel: "Petrol", gear: "Manual", price: "$28,000", img: Chevrolet },
-    { id: 34, name: " Toyota Yaris -2024", des:"4.0 D5 PowerPulse Momentum...", miles: "10 Miles", fuel: "Diesel", gear: "Auto", price: "$55,000", img: ToyotaYaris },
-    { id: 35, name: "Renault Clio  -2020", des:"4.0 D5 PowerPulse Momentum...", miles: "22 Miles", fuel: "Hybrid", gear: "Auto", price: "$32,000", img: Renault  },
+    { id: 23, name: "Volkswagen Golf 8 -2021 ", des:"4.0 D5 PowerPulse Momentum...", miles: "22 Miles", fuel: "Hybrid", gear: "Auto", price: "$32,000", img: Volkswagen },
+  { id: 24, name: "Chevrolet Aveo LT -2023", des:"4.0 D5 PowerPulse Momentum...", miles: "25 Miles", fuel: "Petrol", gear: "Manual", price: "$28,000", img: Chevrolet },
+    { id: 25, name: " Toyota Yaris -2024", des:"4.0 D5 PowerPulse Momentum...", miles: "10 Miles", fuel: "Diesel", gear: "Auto", price: "$55,000", img: ToyotaYaris },
+    { id: 26, name: "Renault Clio  -2020", des:"4.0 D5 PowerPulse Momentum...", miles: "22 Miles", fuel: "Hybrid", gear: "Auto", price: "$32,000", img: Renault  },
  
+   
     
     ],
 };

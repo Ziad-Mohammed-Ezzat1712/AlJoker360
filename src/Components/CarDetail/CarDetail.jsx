@@ -1,27 +1,20 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { FaGasPump, FaTachometerAlt, FaCogs } from "react-icons/fa";
 import CarDetailsCalendar from "../CarDetailsCalendar/CarDetailsCalendar";
-import cross from "../../../Images/cross.jpg";
-import cross2 from "../../../Images/Convertible/Ford-Mustang.jpg";
-
+import carsData from "../carsData/carsData"; // استورد ملف الداتا
+import cross from "../../../Images/cross.jpg"; import cross2 from "../../../Images/Convertible/Ford-Mustang.jpg";
 export default function CarDetail() {
   const { id } = useParams();
   const [car, setCar] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
-    axios
-      .get("/cars.json")
-      .then((res) => {
-        const foundCar = res.data.find((c) => c.id === Number(id));
-        setCar(foundCar);
-        if (foundCar?.images?.length > 0) {
-          setSelectedImage(foundCar.images[0]);
-        }
-      })
-      .catch((err) => console.error("Failed to load car details:", err));
+    const foundCar = carsData.find((c) => c.id === Number(id));
+    setCar(foundCar);
+    if (foundCar) {
+      setSelectedImage(foundCar.image);
+    }
   }, [id]);
 
   if (!car) {
@@ -43,25 +36,10 @@ export default function CarDetail() {
         {/* الصور */}
         <div>
           <img
-            src={selectedImage || car.image}
+            src={selectedImage}
             alt={car.title}
             className="w-full h-[250px] md:h-[350px] object-cover rounded-lg shadow"
           />
-          {car.images && (
-            <div className="flex flex-wrap gap-3 mt-3">
-              {car.images.map((img, i) => (
-                <img
-                  key={i}
-                  src={img}
-                  alt={`thumb-${i}`}
-                  onClick={() => setSelectedImage(img)}
-                  className={`w-16 h-14 md:w-20 md:h-16 object-cover rounded cursor-pointer border ${
-                    selectedImage === img ? "border-red-500" : "border-gray-300"
-                  }`}
-                />
-              ))}
-            </div>
-          )}
         </div>
 
         {/* تفاصيل */}
@@ -69,16 +47,14 @@ export default function CarDetail() {
           <h2 className="text-xs md:text-sm font-bold text-gray-500">
             {car.title}
           </h2>
-          <h1 className="text-xl md:text-2xl font-bold mt-2">
-            {car.subtitle}
-          </h1>
+          <h1 className="text-xl md:text-2xl font-bold mt-2">{car.subtitle}</h1>
           <p className="text-sm md:text-base text-gray-600 mt-3">
             {car.description}
           </p>
 
           <p className="mt-4 font-semibold text-gray-700">
             Starting from{" "}
-            <span className="text-red-600 font-bold">{car.price}</span>
+            <span className="text-red-600 font-bold">${car.price}</span>
           </p>
         </div>
       </div>
@@ -104,6 +80,10 @@ export default function CarDetail() {
         <CarDetailsCalendar />
       </div>
 
+      {/* نموذج الحجز وباقي الأقسام */}
+      {/* ... زي ما هو من الكود اللي عندك ... */}
+
+      
       {/* نموذج الحجز */}
       <div className="max-w-7xl mx-auto mt-8 border rounded-lg p-6 bg-gray-50">
         <h3 className="font-semibold mb-4 text-base md:text-lg">
@@ -154,3 +134,6 @@ export default function CarDetail() {
     </div>
   );
 }
+
+
+

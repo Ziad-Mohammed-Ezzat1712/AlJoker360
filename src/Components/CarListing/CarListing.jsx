@@ -1,23 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Bookmark } from "lucide-react";
 import { FiArrowUp } from "react-icons/fi";
 import { FaGasPump, FaTachometerAlt, FaCogs } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import carsData from "../carsData/carsData"; // ✅ استدعاء الداتا بدل axios
 
 const ITEMS_PER_PAGE = 12;
 
 const CarListing = () => {
-  const [cars, setCars] = useState([]);
+  const [cars] = useState(carsData); // ✅ البيانات مباشرة
   const [currentPage, setCurrentPage] = useState(1);
-
-  useEffect(() => {
-    // استدعاء البيانات من ملف JSON في public
-    axios
-      .get("/cars.json")
-      .then((res) => setCars(res.data))
-      .catch((err) => console.error("Failed to load cars:", err));
-  }, []);
 
   const totalPages = Math.ceil(cars.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
