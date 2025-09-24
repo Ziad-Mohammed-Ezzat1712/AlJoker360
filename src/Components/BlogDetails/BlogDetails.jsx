@@ -32,7 +32,7 @@ export default function BlogDetails() {
   if (!post) return <p>Post not found</p>;
 
   return (
-    <div className="bg-white max-w-10xl xl:rounded-[60px] relative z-40 xl:mt-[-50px] mt-[-20px] mb-[-50px] mx-auto px-4 py-10">
+    <div className="bg-white max-w-10xl xl:rounded-[60px] relative z-40 xl:mt-[-50px] mt-[-2px] mb-[-50px] mx-auto px-4 py-10">
     <div className="mb-6 xl:px-20 px-0">
         <p className="text-[20px] font-medium ">
           <span className="text-[#D72638] ">Home</span> / Blogs <span>/{post.title}</span>

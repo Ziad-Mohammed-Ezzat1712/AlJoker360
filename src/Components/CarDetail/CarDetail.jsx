@@ -52,10 +52,7 @@ export default function CarDetail() {
             {car.description}
           </p>
 
-          <p className="mt-4 font-semibold text-gray-700">
-            Starting from{" "}
-            <span className="text-red-600 font-bold">${car.price}</span>
-          </p>
+         
         </div>
       </div>
 

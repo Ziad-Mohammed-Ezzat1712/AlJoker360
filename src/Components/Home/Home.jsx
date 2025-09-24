@@ -11,7 +11,8 @@ import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer'
 export default function Home() {
   return <>
-  <Nav/>
+<div className=' overflow-x-hidden'>
+    <Nav/>
   <HeroSlider/>
   <SelectBodyStyle/>
   <PlanYourTrip/>
@@ -21,5 +22,6 @@ export default function Home() {
   <BookRideSection/>
   <FAQSection/>
   <Footer/>
+</div>
   </>
 }

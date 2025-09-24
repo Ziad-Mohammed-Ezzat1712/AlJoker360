@@ -15,7 +15,7 @@ export default function FAQSection() {
     },
     {
       question:
-        "Can I arrange for financing by myself for a car purchased at Klaksat?",
+        "Can I arrange for financing by myself for a car purchased at Aljocker?",
       answer: "Yes, you can arrange your own financing independently if you prefer.",
     },
   ];

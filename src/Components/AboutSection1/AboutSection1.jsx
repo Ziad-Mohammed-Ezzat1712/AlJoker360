@@ -29,7 +29,7 @@ export default function AboutSection1() {
 
   {/* Right - Paragraphs */}
   <div className="space-y-4 xl:max-w-[570px] xl:text-center md:text-left">
-    <p className="text-[16px]">
+    <p className="text-[18px] mt-10 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0">
       Since 2020, we have been your trusted partner for car rentals in Dubai. With more than 10,000 satisfied customers worldwide—especially from the GCC—we built our reputation on one principle: Trust comes first.
 
 We offer all types of cars at the best prices in Dubai, from luxury and sports cars to family and economy options.

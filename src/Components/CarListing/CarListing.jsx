@@ -77,7 +77,7 @@ const CarListing = () => {
             </div>
 
             <div className="flex justify-between mt-5 items-center">
-              <span className="text-[20px] font-semibold text-[#0A0A23]">${car.price}</span>
+             
               <Link
                 to={`/car/${car.id}`}
                 className="text-[#D72638] font-medium text-[18px]"

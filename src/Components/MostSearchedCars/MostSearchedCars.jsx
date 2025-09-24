@@ -160,9 +160,7 @@ export default function MostSearchedCars() {
 
 
                 <div className="flex justify-between mt-5 items-center ">
-                  <span className="text-[20px] font-semibold text-[#0A0A23]">
-                    {car.price}
-                  </span>
+                 
                   <button className="text-[#D72638] font-medium   text-[18px] ">
                              <Link to={`/car/${car.id}`} className="text-[#D72638] font-medium text-[18px]">
                     <span className="flex gap-x-1 cursor-pointer">

@@ -43,15 +43,11 @@ export default function Footer() {
 
       {/* Address */}
       <p className="flex items-center gap-2 font-medium text-[16px]">
-        <FaMapMarkerAlt className="text-[#D72638] text-xl" />
+        <FaMapMarkerAlt className="text-[#D72638] text-2xl" />
         Al khabeesi building, Office no M5-189, Al khabeesi deira, Dubai, U.AE
       </p>
 
-      {/* Phone */}
-      <p className="flex items-center gap-2 font-medium text-[16px]">
-        <FaPhone className="text-[#D72638] text-xl" />
-        +971567567467
-      </p>
+
 
       {/* Email */}
       <p className="flex items-center gap-2 font-medium text-[16px]">
@@ -61,14 +57,8 @@ export default function Footer() {
               </div>
 
         </div>
-      </footer>
-
-      {/* Copyright Bottom Bar */}
-      <div className="bg-black p-6 text-white text-center md:text-left">
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <h1 className="text-lg font-semibold">@ 2025 Al Joker . All rights reserved.</h1>
-           <div className=' ' >
-            <Link to="https://www.facebook.com/profile.php?id=61578290960070" target="_blank" className=" px-5">
+            <div className=' md:text-end xl:mr-44 mt-8'>
+                 <Link to="https://www.facebook.com/profile.php?id=61578290960070" target="_blank" className=" md:px-5 pr-5">
               <i className="fab fa-facebook text-[#DB2C33] hover:text-white text-[25px]"></i>
             </Link>
             <Link to="https://www.instagram.com/eljokerdrivedubai/?next=%2F" target="_blank" className=" px-5">
@@ -78,7 +68,29 @@ export default function Footer() {
               <i className="fa-brands fa-tiktok text-[#DB2C33] hover:text-white text-[25px]"></i> </Link>
              <Link to="https://www.snapchat.com/add/eljoker.drive?share_id=kgf13llUJ7E&locale=ar-EG" target="_blank" className=" px-5">
               <i className="fa-brands fa-snapchat text-[#DB2C33] hover:text-white text-[25px]"></i>   </Link>
+     
+            </div>
+             </footer>
 
+      {/* Copyright Bottom Bar */}
+      <div className="bg-black p-6 text-white text-center md:text-left">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+          <h1 className="text-lg font-semibold">@ 2025 Al Joker . All rights reserved.</h1>
+           <div className=' ' >
+<div className="flex flex-col md:flex-row gap-4">
+  <p className="flex items-center gap-2 font-medium text-[16px]">
+    <FaPhone className="text-[#D72638] text-xl rotate-90" />
+    +971567567467
+  </p>
+  <p className="flex items-center gap-2 font-medium text-[16px]">
+    <FaPhone className="text-[#D72638] text-xl rotate-90" />
+    0097142236476
+  </p>
+  <p className="flex items-center gap-2 font-medium text-[16px]">
+    <FaPhone className="text-[#D72638] text-xl rotate-90 " />
+    0097142201395
+  </p>
+</div>
         </div>
         </div>
        
